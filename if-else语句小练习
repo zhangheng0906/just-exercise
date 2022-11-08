@@ -1,0 +1,12 @@
+# include <stdio.h>
+int main (void)
+{
+    int input = 0;
+    printf("是否愿意好好学习？（1/0）>:");
+    scanf("%d",&input);         /*输入0或者1*/
+    if  (input==1)
+	 printf ("good offer!\n");
+	else
+	 printf("那你完蛋了！\n");
+	return 0; 
+}
